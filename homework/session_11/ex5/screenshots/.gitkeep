@@ -1,0 +1,3 @@
+# Place Bài 5 screenshots here:
+# 1. workflow_graph_success.png (Ảnh chụp sơ đồ Workflow trên tab Actions hiển thị 2 Job test -> docker-build nối nhau bằng mũi tên màu xanh)
+# 2. workflow_graph_skipped.png (Ảnh chụp khi test đứt khiến docker-build tự động chuyển sang trạng thái Skipped)

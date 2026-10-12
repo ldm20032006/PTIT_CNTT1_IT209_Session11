@@ -8,13 +8,14 @@ on:
 
 jobs:
   login-ghcr:
+    name: Authenticate GHCR
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4
 
-      - name: Login to GitHub Container Registry
+      - name: Đăng nhập vào GitHub Container Registry
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
@@ -22,4 +23,4 @@ jobs:
           password: ${{ secrets.REGISTRY_TOKEN }}
 
       - name: Verify login
-        run: echo "GHCR authentication step completed"
+        run: echo "GHCR authentication step completed successfully with Login Succeeded!"

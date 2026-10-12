@@ -1,0 +1,3 @@
+# Place screenshot images here:
+# 1. repository_secrets.png (Ảnh chụp giao diện Repository Secrets có biến REGISTRY_TOKEN)
+# 2. login_succeeded.png (Ảnh chụp log GitHub Actions hiển thị "Login Succeeded")
